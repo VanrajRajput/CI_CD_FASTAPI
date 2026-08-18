@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      APP_NAME: ci-cd-demo
+      APP_ENV: production
+      APP_VERSION: 1.0.0
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
