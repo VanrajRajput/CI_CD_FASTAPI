@@ -11,6 +11,11 @@ venv
 .env
 .env.*
 
+test_main.py
+docker-compose.yml
+README.md
+LICENSE
+
 .idea
 .vscode
 *.md
